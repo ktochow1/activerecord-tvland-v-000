@@ -5,5 +5,6 @@ class AddShowColumns::Migration[4.2]
     add_column :shows, :season, :string 
     add_column :shows, :genre, :string
   end
+end
   
 end
