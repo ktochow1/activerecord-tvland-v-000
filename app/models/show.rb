@@ -3,6 +3,6 @@ class Show < ActiveRecord::Base
   has_many :actors, through: :characters
   belongs_to :network
   
-  def build_network(arg)
+  def call_letters(arg)
   end
 end
