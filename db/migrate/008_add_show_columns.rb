@@ -1,4 +1,4 @@
-class AddShowColumns::Migration[5.1]
+class AddShowColumns::Migration[4.2]
   
   def change 
     add_column :shows, :day, :string 
