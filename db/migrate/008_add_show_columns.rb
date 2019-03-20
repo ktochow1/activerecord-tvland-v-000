@@ -7,4 +7,3 @@ class AddShowColumns::Migration[4.2]
   end
 end
   
-end
